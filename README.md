@@ -13,6 +13,8 @@ Special thanks to silicontrip for his Skyreader which gave me inspiration to mak
 Special thanks to Jan Axelson for making the code examples to controlling HID devices from VB.NET
 
 
+
+
 ALWAYS KEEP A VALID BACKUP OF YOUR SKYLANDER BEFORE MODIFYING DATA
 
 ALWAYS KEEP A VALID BACKUP OF YOUR SKYLANDER BEFORE MODIFYING DATA
@@ -81,9 +83,11 @@ the image folder along the executable is optional and accepts 150x150 pictures w
 
 Initial Release
 
+
 1.0.1 - 
 
 added lvl 20 support and a nice About window
+
 
 1.5.0 - 
 
@@ -95,6 +99,7 @@ added images from all the new indexes
 	
 added some experimental Swappable reading
 
+
 1.8.0 - 
 
 added Superchargers Hats
@@ -102,7 +107,9 @@ added Superchargers Hats
 added support for most portals (Trap Team portals may still misbehave)
 
 
-1.9.0 - Reset Figure option now correctly resets imaginators figures/crystals
+1.9.0 - 
+
+Reset Figure option now correctly resets imaginators figures/crystals
 
 
 1.0.0 (.NET) - 
