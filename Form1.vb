@@ -429,8 +429,8 @@ Public Class Form1
         'this function reads the skylander in the portal and saves it to a file without mapping it
         'useful for making 0'd backups of skylanders
 
-        SaveFileDialog1.Filter = "Encrypted Skylanders (*.skd)|*.skd|All Files|*.*"
-        SaveFileDialog1.DefaultExt = "ske"
+        SaveFileDialog1.Filter = "Decrypted Skylanders (*.skd)|*.skd|All Files|*.*"
+        SaveFileDialog1.DefaultExt = "skd"
         SaveFileDialog1.ShowDialog()
         If SaveFileDialog1.FileName = "" Then
             Exit Sub
