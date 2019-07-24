@@ -116,7 +116,7 @@ Module skyDecrypter
                 Exit Do
             End If
             h = h + 1
-        Loop While h <= 16
+        Loop While h <= 144
 
         h = 576
         Do
@@ -125,7 +125,8 @@ Module skyDecrypter
                 Exit Do
             End If
             h = h + 1
-        Loop While h <= 16
+        Loop While h <= 592
+
 
         If areaA And areaB Then
             Return False
