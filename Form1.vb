@@ -1,5 +1,4 @@
 ﻿Option Explicit On
-Imports System.Data.OleDb
 Imports Microsoft.Win32.SafeHandles
 Imports SkylanderEditor.DeviceManagement
 
@@ -7,6 +6,7 @@ Public Class Form1
     Dim skylanderBytes(1023) As Byte
     Dim outRepoBytes(32) As Byte
     Dim inRepoBytes(32) As Byte
+    Dim skyInfo(2) As String
     Dim skylanderID As Integer
     Dim skylanderGold As Long
     Dim skylanderEXP As Long
@@ -23,24 +23,15 @@ Public Class Form1
     Dim portalHandle As SafeFileHandle
 
 
-    Dim SQLcnt As OleDbConnection
-    Dim SQLrst As OleDbDataReader
-    Dim SQLcmd As OleDbCommand
-
-
 
     Private Sub Form1_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
         'initialize file dialogs, database connection, hat combobox and CRC calculator table
         OpenFileDialog1.FileName = ""
         SaveFileDialog1.FileName = ""
-        SQLcnt = New OleDbConnection
 
         exepath = Application.StartupPath & "\"
 
-        SQLcnt.ConnectionString = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=" & exepath & "SkylanderDB.accdb;Persist Security Info=False"
-        SQLcnt.Open()
-
-        hatsimulator(SQLrst, SQLcnt, SQLcmd)
+        hatsimulator(exepath)
         ComboBox1.SelectedIndex = 0
         CRCcalculator.inittable()
         lockControls()
@@ -85,7 +76,7 @@ Public Class Form1
             skylanderBytes = decryptSkylander(skylanderBytes)
             readskylandData(skylanderBytes, False)
         End If
-        
+
     End Sub
 
     Private Sub SaveAsDecryptedSkylanderToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles SaveAsDecryptedSkylanderToolStripMenuItem.Click
@@ -518,10 +509,9 @@ Public Class Form1
         'get skylander ID
         skylanderID = SwapEndianness(skylanderData(16), skylanderData(17))
 
-        SQLcmd = New OleDbCommand("SELECT * FROM Skylanders WHERE ID = " & skylanderID, SQLcnt)
-        SQLrst = SQLcmd.ExecuteReader
+        skyInfo = Split(ReadIni(exepath & "SkylanderDB.ini", "Skylanders", skylanderID, ""), "_")
 
-        If Not SQLrst.HasRows Then
+        If skyInfo(0) = "" Then
             'if figure ID is not in database
             Label7.Text = "Unknown ID: " & skylanderID
             Label8.Text = "- -"
@@ -531,10 +521,9 @@ Public Class Form1
             Exit Sub
 
         Else
-            SQLrst.Read()
             'get figure name and element
-            Label7.Text = SQLrst("skyname")
-            Label8.Text = SQLrst("element")
+            Label7.Text = skyInfo(0)
+            Label8.Text = skyInfo(1)
             'load skylander picture if available
             PictureBox1.ImageLocation = exepath & "images\" & Trim(Str(skylanderID)) & ".jpg"
             'lock controls if a swapper bottom half, item or stage is opened
@@ -575,9 +564,8 @@ Public Class Form1
             indexValB = 2
         End If
 
-        If SQLrst("special").ToString = "Vehicle" Then
+        If InStr(skyInfo(1), "Vehicle") Then
             skylanderGold = SwapEndianness(skylanderData(expC), skylanderData(expC + 1))
-            Label8.Text = Label8.Text & " Vehicle"
             TextBox2.Text = skylanderGold
             TextBox1.Text = 0
             ComboBox1.SelectedIndex = 0
@@ -610,7 +598,6 @@ Public Class Form1
         End If
         autom = False
         unlockControls()
-        SQLrst.Close()
         ToolStripStatusLabel1.Text = "Finished Reading"
     End Sub
 
@@ -637,20 +624,17 @@ Public Class Form1
             skylanderData(hatB) = 0
             skylanderData(hatC) = 0
             skylanderData(hatD) = 0
-        End If
-        If skylanderHat >= 46 And skylanderHat < 97 Then
+        ElseIf skylanderHat >= 46 And skylanderHat < 97 Then
             skylanderData(hatB) = skylanderHat
             skylanderData(hatC) = 0
             skylanderData(hatA) = 0
             skylanderData(hatD) = 0
-        End If
-        If skylanderHat >= 97 And skylanderHat < 256 Then
+        ElseIf skylanderHat >= 97 And skylanderHat < 256 Then
             skylanderData(hatC) = skylanderHat
             skylanderData(hatB) = 0
             skylanderData(hatA) = 0
             skylanderData(hatD) = 0
-        End If
-        If skylanderHat >= 256 Then
+        ElseIf skylanderHat >= 256 Then
             skylanderData(hatD) = skylanderHat - 255
             skylanderData(hatC) = 0
             skylanderData(hatB) = 0
@@ -765,65 +749,45 @@ vehicleSkip:
         If TextBox1.Text <> "" Then
             If Int(TextBox1.Text) > 197500 Then
                 TextBox1.Text = 197500
-            End If
-            If Int(TextBox1.Text) = 197500 Then
+            ElseIf Int(TextBox1.Text) = 197500 Then
                 Label9.Text = "Level: 20"
-            End If
-            If Int(TextBox1.Text) >= 174300 And Int(TextBox1.Text) < 197500 Then
+            ElseIf Int(TextBox1.Text) >= 174300 And Int(TextBox1.Text) < 197500 Then
                 Label9.Text = "Level: 19"
-            End If
-            If Int(TextBox1.Text) >= 152600 And Int(TextBox1.Text) < 174300 Then
+            ElseIf Int(TextBox1.Text) >= 152600 And Int(TextBox1.Text) < 174300 Then
                 Label9.Text = "Level: 18"
-            End If
-            If Int(TextBox1.Text) >= 132400 And Int(TextBox1.Text) < 152600 Then
+            ElseIf Int(TextBox1.Text) >= 132400 And Int(TextBox1.Text) < 152600 Then
                 Label9.Text = "Level: 17"
-            End If
-            If Int(TextBox1.Text) >= 113700 And Int(TextBox1.Text) < 132400 Then
+            ElseIf Int(TextBox1.Text) >= 113700 And Int(TextBox1.Text) < 132400 Then
                 Label9.Text = "Level: 16"
-            End If
-            If Int(TextBox1.Text) >= 96500 And Int(TextBox1.Text) < 113700 Then
+            ElseIf Int(TextBox1.Text) >= 96500 And Int(TextBox1.Text) < 113700 Then
                 Label9.Text = "Level: 15"
-            End If
-            If Int(TextBox1.Text) >= 85800 And Int(TextBox1.Text) < 96500 Then
+            ElseIf Int(TextBox1.Text) >= 85800 And Int(TextBox1.Text) < 96500 Then
                 Label9.Text = "Level: 14"
-            End If
-            If Int(TextBox1.Text) >= 69200 And Int(TextBox1.Text) < 85800 Then
+            ElseIf Int(TextBox1.Text) >= 69200 And Int(TextBox1.Text) < 85800 Then
                 Label9.Text = "Level: 13"
-            End If
-            If Int(TextBox1.Text) >= 55000 And Int(TextBox1.Text) < 69200 Then
+            ElseIf Int(TextBox1.Text) >= 55000 And Int(TextBox1.Text) < 69200 Then
                 Label9.Text = "Level: 12"
-            End If
-            If Int(TextBox1.Text) >= 43000 And Int(TextBox1.Text) < 55000 Then
+            ElseIf Int(TextBox1.Text) >= 43000 And Int(TextBox1.Text) < 55000 Then
                 Label9.Text = "Level: 11"
-            End If
-            If Int(TextBox1.Text) >= 33000 And Int(TextBox1.Text) < 43000 Then
+            ElseIf Int(TextBox1.Text) >= 33000 And Int(TextBox1.Text) < 43000 Then
                 Label9.Text = "Level: 10"
-            End If
-            If Int(TextBox1.Text) >= 24800 And Int(TextBox1.Text) < 33000 Then
+            ElseIf Int(TextBox1.Text) >= 24800 And Int(TextBox1.Text) < 33000 Then
                 Label9.Text = "Level: 9"
-            End If
-            If Int(TextBox1.Text) >= 18200 And Int(TextBox1.Text) < 24800 Then
+            ElseIf Int(TextBox1.Text) >= 18200 And Int(TextBox1.Text) < 24800 Then
                 Label9.Text = "Level: 8"
-            End If
-            If Int(TextBox1.Text) >= 13000 And Int(TextBox1.Text) < 18200 Then
+            ElseIf Int(TextBox1.Text) >= 13000 And Int(TextBox1.Text) < 18200 Then
                 Label9.Text = "Level: 7"
-            End If
-            If Int(TextBox1.Text) >= 9000 And Int(TextBox1.Text) < 13000 Then
+            ElseIf Int(TextBox1.Text) >= 9000 And Int(TextBox1.Text) < 13000 Then
                 Label9.Text = "Level: 6"
-            End If
-            If Int(TextBox1.Text) >= 6000 And Int(TextBox1.Text) < 9000 Then
+            ElseIf Int(TextBox1.Text) >= 6000 And Int(TextBox1.Text) < 9000 Then
                 Label9.Text = "Level: 5"
-            End If
-            If Int(TextBox1.Text) >= 3800 And Int(TextBox1.Text) < 6000 Then
+            ElseIf Int(TextBox1.Text) >= 3800 And Int(TextBox1.Text) < 6000 Then
                 Label9.Text = "Level: 4"
-            End If
-            If Int(TextBox1.Text) >= 2200 And Int(TextBox1.Text) < 3800 Then
+            ElseIf Int(TextBox1.Text) >= 2200 And Int(TextBox1.Text) < 3800 Then
                 Label9.Text = "Level: 3"
-            End If
-            If Int(TextBox1.Text) >= 1000 And Int(TextBox1.Text) < 2200 Then
+            ElseIf Int(TextBox1.Text) >= 1000 And Int(TextBox1.Text) < 2200 Then
                 Label9.Text = "Level: 2"
-            End If
-            If Int(TextBox1.Text) >= 0 And Int(TextBox1.Text) < 1000 Then
+            ElseIf Int(TextBox1.Text) >= 0 And Int(TextBox1.Text) < 1000 Then
                 Label9.Text = "Level: 1"
             End If
         End If
@@ -916,7 +880,6 @@ vehicleSkip:
 
     'cleanup by closing the database and closing the hid handles to the portal
     Private Sub Form1_FormClosing(ByVal sender As Object, ByVal e As System.Windows.Forms.FormClosingEventArgs) Handles Me.FormClosing
-        SQLcnt.Close()
         CloseCommunications(portalHandle)
     End Sub
 
@@ -925,6 +888,4 @@ vehicleSkip:
         portalHandle = FindThePortal()
     End Sub
 
-
-   
 End Class

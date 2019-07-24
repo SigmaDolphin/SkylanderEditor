@@ -125,4 +125,10 @@ added functions to dump without mapping figures
 added support to recognize new/blank skylanders
 
 Swapper reading is more reliable
+
+1.0.1 - 
+
+replaced the MSAccess DB for a simple INI file containing the same data
+
+several bugfixes
 		
