@@ -131,4 +131,8 @@ Swapper reading is more reliable
 replaced the MSAccess DB for a simple INI file containing the same data
 
 several bugfixes
+
+1.0.1a -
+
+replaced INI file with an XML file in an attempt to use a more neutral format
 		
