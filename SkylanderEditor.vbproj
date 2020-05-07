@@ -116,7 +116,6 @@
     <Compile Include="HatControl.vb" />
     <Compile Include="hidControl.vb" />
     <Compile Include="HidDeclarations.vb" />
-    <Compile Include="modINI.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>

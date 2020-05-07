@@ -509,7 +509,7 @@ Public Class Form1
         'get skylander ID
         skylanderID = SwapEndianness(skylanderData(16), skylanderData(17))
 
-        skyInfo = Split(ReadIni(exepath & "SkylanderDB.ini", "Skylanders", skylanderID, ""), "_")
+        skyInfo = searchXML(exepath, skylanderID)
 
         If skyInfo(0) = "" Then
             'if figure ID is not in database
