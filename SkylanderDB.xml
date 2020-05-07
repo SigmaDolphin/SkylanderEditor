@@ -1,0 +1,2372 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SkylanderDB>
+  <SkylanderList>
+    <Skylander>
+      <index>0</index>
+      <name>Whirlwind</name>
+      <element>Air</element>
+    </Skylander>
+    <Skylander>
+      <index>1</index>
+      <name>Sonic Boom</name>
+      <element>Air</element>
+    </Skylander>
+    <Skylander>
+      <index>2</index>
+      <name>Warnado</name>
+      <element>Air</element>
+    </Skylander>
+    <Skylander>
+      <index>3</index>
+      <name>Lightning Rod</name>
+      <element>Air</element>
+    </Skylander>
+    <Skylander>
+      <index>4</index>
+      <name>Bash</name>
+      <element>Earth</element>
+    </Skylander>
+    <Skylander>
+      <index>5</index>
+      <name>Terrafin</name>
+      <element>Earth</element>
+    </Skylander>
+    <Skylander>
+      <index>6</index>
+      <name>Dino-Rang</name>
+      <element>Earth</element>
+    </Skylander>
+    <Skylander>
+      <index>7</index>
+      <name>Prism Break</name>
+      <element>Earth</element>
+    </Skylander>
+    <Skylander>
+      <index>8</index>
+      <name>Sunburn</name>
+      <element>Fire</element>
+    </Skylander>
+    <Skylander>
+      <index>9</index>
+      <name>Eruptor</name>
+      <element>Fire</element>
+    </Skylander>
+    <Skylander>
+      <index>10</index>
+      <name>Ignitor</name>
+      <element>Fire</element>
+    </Skylander>
+    <Skylander>
+      <index>11</index>
+      <name>Flameslinger</name>
+      <element>Fire</element>
+    </Skylander>
+    <Skylander>
+      <index>12</index>
+      <name>Zap</name>
+      <element>Water</element>
+    </Skylander>
+    <Skylander>
+      <index>13</index>
+      <name>Wham-Shell</name>
+      <element>Water</element>
+    </Skylander>
+    <Skylander>
+      <index>14</index>
+      <name>Gill Grunt</name>
+      <element>Water</element>
+    </Skylander>
+    <Skylander>
+      <index>15</index>
+      <name>Slam Bam</name>
+      <element>Water</element>
+    </Skylander>
+    <Skylander>
+      <index>16</index>
+      <name>Spyro</name>
+      <element>Magic</element>
+    </Skylander>
+    <Skylander>
+      <index>17</index>
+      <name>Voodood</name>
+      <element>Magic</element>
+    </Skylander>
+    <Skylander>
+      <index>18</index>
+      <name>Double Trouble</name>
+      <element>Magic</element>
+    </Skylander>
+    <Skylander>
+      <index>19</index>
+      <name>Trigger Happy</name>
+      <element>Tech</element>
+    </Skylander>
+    <Skylander>
+      <index>20</index>
+      <name>Drobot</name>
+      <element>Tech</element>
+    </Skylander>
+    <Skylander>
+      <index>21</index>
+      <name>Drill Sergeant</name>
+      <element>Tech</element>
+    </Skylander>
+    <Skylander>
+      <index>22</index>
+      <name>Boomer</name>
+      <element>Tech</element>
+    </Skylander>
+    <Skylander>
+      <index>23</index>
+      <name>Wrecking Ball</name>
+      <element>Magic</element>
+    </Skylander>
+    <Skylander>
+      <index>24</index>
+      <name>Camo</name>
+      <element>Life</element>
+    </Skylander>
+    <Skylander>
+      <index>25</index>
+      <name>Zook</name>
+      <element>Life</element>
+    </Skylander>
+    <Skylander>
+      <index>26</index>
+      <name>Stealth Elf</name>
+      <element>Life</element>
+    </Skylander>
+    <Skylander>
+      <index>27</index>
+      <name>Stump Smash</name>
+      <element>Life</element>
+    </Skylander>
+    <Skylander>
+      <index>28</index>
+      <name>Dark Spyro</name>
+      <element>Magic</element>
+    </Skylander>
+    <Skylander>
+      <index>29</index>
+      <name>Hex</name>
+      <element>Undead</element>
+    </Skylander>
+    <Skylander>
+      <index>30</index>
+      <name>Chop Chop</name>
+      <element>Undead</element>
+    </Skylander>
+    <Skylander>
+      <index>31</index>
+      <name>Ghost Roaster</name>
+      <element>Undead</element>
+    </Skylander>
+    <Skylander>
+      <index>32</index>
+      <name>Cynder</name>
+      <element>Undead</element>
+    </Skylander>
+    <Skylander>
+      <index>100</index>
+      <name>Jet Vac</name>
+      <element>Air</element>
+    </Skylander>
+    <Skylander>
+      <index>101</index>
+      <name>Swarm</name>
+      <element>Air</element>
+    </Skylander>
+    <Skylander>
+      <index>102</index>
+      <name>Crusher</name>
+      <element>Earth</element>
+    </Skylander>
+    <Skylander>
+      <index>103</index>
+      <name>Flashwing</name>
+      <element>Earth</element>
+    </Skylander>
+    <Skylander>
+      <index>104</index>
+      <name>Hot Head</name>
+      <element>Fire</element>
+    </Skylander>
+    <Skylander>
+      <index>105</index>
+      <name>Hot Dog</name>
+      <element>Fire</element>
+    </Skylander>
+    <Skylander>
+      <index>106</index>
+      <name>Chill</name>
+      <element>Water</element>
+    </Skylander>
+    <Skylander>
+      <index>107</index>
+      <name>Thumpback</name>
+      <element>Water</element>
+    </Skylander>
+    <Skylander>
+      <index>108</index>
+      <name>Pop Fizz</name>
+      <element>Magic</element>
+    </Skylander>
+    <Skylander>
+      <index>109</index>
+      <name>Ninjini</name>
+      <element>Magic</element>
+    </Skylander>
+    <Skylander>
+      <index>110</index>
+      <name>Bouncer</name>
+      <element>Tech</element>
+    </Skylander>
+    <Skylander>
+      <index>111</index>
+      <name>Sprocket</name>
+      <element>Tech</element>
+    </Skylander>
+    <Skylander>
+      <index>112</index>
+      <name>Tree Rex</name>
+      <element>Life</element>
+    </Skylander>
+    <Skylander>
+      <index>113</index>
+      <name>Shroomboom</name>
+      <element>Life</element>
+    </Skylander>
+    <Skylander>
+      <index>114</index>
+      <name>Eye-Brawl</name>
+      <element>Undead</element>
+    </Skylander>
+    <Skylander>
+      <index>115</index>
+      <name>Fright Rider</name>
+      <element>Undead</element>
+    </Skylander>
+    <Skylander>
+      <index>200</index>
+      <name>Anvil Rain</name>
+      <element>Item</element>
+    </Skylander>
+    <Skylander>
+      <index>201</index>
+      <name>Hidden Treasure</name>
+      <element>Item</element>
+    </Skylander>
+    <Skylander>
+      <index>202</index>
+      <name>Healing Elixir</name>
+      <element>Item</element>
+    </Skylander>
+    <Skylander>
+      <index>203</index>
+      <name>Ghost Swords</name>
+      <element>Item</element>
+    </Skylander>
+    <Skylander>
+      <index>204</index>
+      <name>Time Twister</name>
+      <element>Item</element>
+    </Skylander>
+    <Skylander>
+      <index>205</index>
+      <name>Sky-Iron Shield</name>
+      <element>Item</element>
+    </Skylander>
+    <Skylander>
+      <index>206</index>
+      <name>Winged Boots</name>
+      <element>Item</element>
+    </Skylander>
+    <Skylander>
+      <index>207</index>
+      <name>Sparx Dragonfly</name>
+      <element>Item</element>
+    </Skylander>
+    <Skylander>
+      <index>208</index>
+      <name>Dragonfire Cannon</name>
+      <element>Item</element>
+    </Skylander>
+    <Skylander>
+      <index>230</index>
+      <name>Hand Of Fate</name>
+      <element>Item</element>
+    </Skylander>
+    <Skylander>
+      <index>231</index>
+      <name>Piggy Bank</name>
+      <element>Item</element>
+    </Skylander>
+    <Skylander>
+      <index>232</index>
+      <name>Rocket Ram</name>
+      <element>Item</element>
+    </Skylander>
+    <Skylander>
+      <index>233</index>
+      <name>Tiki Speaky</name>
+      <element>Item</element>
+    </Skylander>
+    <Skylander>
+      <index>300</index>
+      <name>Dragons Peak</name>
+      <element>Item</element>
+    </Skylander>
+    <Skylander>
+      <index>301</index>
+      <name>Empire of Ice</name>
+      <element>Item</element>
+    </Skylander>
+    <Skylander>
+      <index>302</index>
+      <name>Pirate Seas</name>
+      <element>Item</element>
+    </Skylander>
+    <Skylander>
+      <index>303</index>
+      <name>Darklight Crypt</name>
+      <element>Item</element>
+    </Skylander>
+    <Skylander>
+      <index>305</index>
+      <name>Mirror of Mystery</name>
+      <element>Item</element>
+    </Skylander>
+    <Skylander>
+      <index>306</index>
+      <name>Nightmare Express</name>
+      <element>Item</element>
+    </Skylander>
+    <Skylander>
+      <index>307</index>
+      <name>Sunscraper Spire</name>
+      <element>Item</element>
+    </Skylander>
+    <Skylander>
+      <index>308</index>
+      <name>Midnight Museum</name>
+      <element>Item</element>
+    </Skylander>
+    <Skylander>
+      <index>404</index>
+      <name>Legendary Bash</name>
+      <element>Earth</element>
+    </Skylander>
+    <Skylander>
+      <index>416</index>
+      <name>Legendary Spyro</name>
+      <element>Magic</element>
+    </Skylander>
+    <Skylander>
+      <index>419</index>
+      <name>Legendary Trigger Happy</name>
+      <element>Tech</element>
+    </Skylander>
+    <Skylander>
+      <index>430</index>
+      <name>Legendary Chop Chop</name>
+      <element>Undead</element>
+    </Skylander>
+    <Skylander>
+      <index>450</index>
+      <name>Gusto</name>
+      <element>Air</element>
+    </Skylander>
+    <Skylander>
+      <index>451</index>
+      <name>Thunderbolt</name>
+      <element>Air</element>
+    </Skylander>
+    <Skylander>
+      <index>452</index>
+      <name>Fling Kong</name>
+      <element>Air</element>
+    </Skylander>
+    <Skylander>
+      <index>453</index>
+      <name>Blades</name>
+      <element>Air</element>
+    </Skylander>
+    <Skylander>
+      <index>454</index>
+      <name>Wallop</name>
+      <element>Earth</element>
+    </Skylander>
+    <Skylander>
+      <index>455</index>
+      <name>Head Rush</name>
+      <element>Earth</element>
+    </Skylander>
+    <Skylander>
+      <index>456</index>
+      <name>Fist Bump</name>
+      <element>Earth</element>
+    </Skylander>
+    <Skylander>
+      <index>457</index>
+      <name>Rocky Roll</name>
+      <element>Earth</element>
+    </Skylander>
+    <Skylander>
+      <index>458</index>
+      <name>Wildfire</name>
+      <element>Fire</element>
+    </Skylander>
+    <Skylander>
+      <index>459</index>
+      <name>Ka-Boom</name>
+      <element>Fire</element>
+    </Skylander>
+    <Skylander>
+      <index>460</index>
+      <name>Trail Blazer</name>
+      <element>Fire</element>
+    </Skylander>
+    <Skylander>
+      <index>461</index>
+      <name>Torch</name>
+      <element>Fire</element>
+    </Skylander>
+    <Skylander>
+      <index>462</index>
+      <name>Snap Shot</name>
+      <element>Water</element>
+    </Skylander>
+    <Skylander>
+      <index>463</index>
+      <name>Lob-Star</name>
+      <element>Water</element>
+    </Skylander>
+    <Skylander>
+      <index>464</index>
+      <name>Flip Wreck</name>
+      <element>Water</element>
+    </Skylander>
+    <Skylander>
+      <index>465</index>
+      <name>Echo</name>
+      <element>Water</element>
+    </Skylander>
+    <Skylander>
+      <index>466</index>
+      <name>Blastermind</name>
+      <element>Magic</element>
+    </Skylander>
+    <Skylander>
+      <index>467</index>
+      <name>Enigma</name>
+      <element>Magic</element>
+    </Skylander>
+    <Skylander>
+      <index>468</index>
+      <name>Deja Vu</name>
+      <element>Magic</element>
+    </Skylander>
+    <Skylander>
+      <index>469</index>
+      <name>Cobra Cadabra</name>
+      <element>Magic</element>
+    </Skylander>
+    <Skylander>
+      <index>470</index>
+      <name>Jawbreaker</name>
+      <element>Tech</element>
+    </Skylander>
+    <Skylander>
+      <index>471</index>
+      <name>Gearshift</name>
+      <element>Tech</element>
+    </Skylander>
+    <Skylander>
+      <index>472</index>
+      <name>Chopper</name>
+      <element>Tech</element>
+    </Skylander>
+    <Skylander>
+      <index>473</index>
+      <name>Tread Head</name>
+      <element>Tech</element>
+    </Skylander>
+    <Skylander>
+      <index>474</index>
+      <name>Bushwhack</name>
+      <element>Life</element>
+    </Skylander>
+    <Skylander>
+      <index>475</index>
+      <name>Tuff Luck</name>
+      <element>Life</element>
+    </Skylander>
+    <Skylander>
+      <index>476</index>
+      <name>Food Fight</name>
+      <element>Life</element>
+    </Skylander>
+    <Skylander>
+      <index>477</index>
+      <name>High Five</name>
+      <element>Life</element>
+    </Skylander>
+    <Skylander>
+      <index>478</index>
+      <name>Krypt King</name>
+      <element>Undead</element>
+    </Skylander>
+    <Skylander>
+      <index>479</index>
+      <name>Shortcut</name>
+      <element>Undead</element>
+    </Skylander>
+    <Skylander>
+      <index>480</index>
+      <name>Bat Spin</name>
+      <element>Undead</element>
+    </Skylander>
+    <Skylander>
+      <index>481</index>
+      <name>Funny Bone</name>
+      <element>Undead</element>
+    </Skylander>
+    <Skylander>
+      <index>482</index>
+      <name>Knight Light</name>
+      <element>Light</element>
+    </Skylander>
+    <Skylander>
+      <index>483</index>
+      <name>Spotlight</name>
+      <element>Light</element>
+    </Skylander>
+    <Skylander>
+      <index>484</index>
+      <name>Knight Mare</name>
+      <element>Dark</element>
+    </Skylander>
+    <Skylander>
+      <index>485</index>
+      <name>Blackout</name>
+      <element>Dark</element>
+    </Skylander>
+    <Skylander>
+      <index>502</index>
+      <name>Bop</name>
+      <element>Earth</element>
+    </Skylander>
+    <Skylander>
+      <index>503</index>
+      <name>Spry</name>
+      <element>Magic</element>
+    </Skylander>
+    <Skylander>
+      <index>504</index>
+      <name>Hijinx</name>
+      <element>Undead</element>
+    </Skylander>
+    <Skylander>
+      <index>505</index>
+      <name>Terrabite</name>
+      <element>Earth</element>
+    </Skylander>
+    <Skylander>
+      <index>506</index>
+      <name>Breeze</name>
+      <element>Air</element>
+    </Skylander>
+    <Skylander>
+      <index>507</index>
+      <name>Weeruptor</name>
+      <element>Fire</element>
+    </Skylander>
+    <Skylander>
+      <index>508</index>
+      <name>Pet-Vac</name>
+      <element>Air</element>
+    </Skylander>
+    <Skylander>
+      <index>509</index>
+      <name>Small Fry</name>
+      <element>Fire</element>
+    </Skylander>
+    <Skylander>
+      <index>510</index>
+      <name>Drobit</name>
+      <element>Tech</element>
+    </Skylander>
+    <Skylander>
+      <index>514</index>
+      <name>Gill Runt</name>
+      <element>Water</element>
+    </Skylander>
+    <Skylander>
+      <index>519</index>
+      <name>Trigger Snappy</name>
+      <element>Tech</element>
+    </Skylander>
+    <Skylander>
+      <index>526</index>
+      <name>Whisper Elf</name>
+      <element>Life</element>
+    </Skylander>
+    <Skylander>
+      <index>540</index>
+      <name>Barkley</name>
+      <element>Life</element>
+    </Skylander>
+    <Skylander>
+      <index>541</index>
+      <name>Thumpling</name>
+      <element>Water</element>
+    </Skylander>
+    <Skylander>
+      <index>542</index>
+      <name>Mini-Jini</name>
+      <element>Magic</element>
+    </Skylander>
+    <Skylander>
+      <index>543</index>
+      <name>Eye-Small</name>
+      <element>Undead</element>
+    </Skylander>
+    <Skylander>
+      <index>601</index>
+      <name>King Pen</name>
+      <element>Water</element>
+    </Skylander>
+    <Skylander>
+      <index>602</index>
+      <name>Tri-Tip</name>
+      <element>Earth</element>
+    </Skylander>
+    <Skylander>
+      <index>603</index>
+      <name>Chopscotch</name>
+      <element>Undead</element>
+    </Skylander>
+    <Skylander>
+      <index>604</index>
+      <name>Boom Bloom</name>
+      <element>Life</element>
+    </Skylander>
+    <Skylander>
+      <index>605</index>
+      <name>Pit Boss</name>
+      <element>Undead</element>
+    </Skylander>
+    <Skylander>
+      <index>606</index>
+      <name>Barbella</name>
+      <element>Earth</element>
+    </Skylander>
+    <Skylander>
+      <index>607</index>
+      <name>Air Strike</name>
+      <element>Air</element>
+    </Skylander>
+    <Skylander>
+      <index>608</index>
+      <name>Ember</name>
+      <element>Fire</element>
+    </Skylander>
+    <Skylander>
+      <index>609</index>
+      <name>Ambush</name>
+      <element>Life</element>
+    </Skylander>
+    <Skylander>
+      <index>610</index>
+      <name>Dr. Krankcase</name>
+      <element>Tech</element>
+    </Skylander>
+    <Skylander>
+      <index>611</index>
+      <name>Hood Sickle</name>
+      <element>Dark</element>
+    </Skylander>
+    <Skylander>
+      <index>612</index>
+      <name>Tae Kwon Crow</name>
+      <element>Fire</element>
+    </Skylander>
+    <Skylander>
+      <index>613</index>
+      <name>Golden Queen</name>
+      <element>Earth</element>
+    </Skylander>
+    <Skylander>
+      <index>614</index>
+      <name>Wolfgang</name>
+      <element>Undead</element>
+    </Skylander>
+    <Skylander>
+      <index>615</index>
+      <name>Pain-Yatta</name>
+      <element>Magic</element>
+    </Skylander>
+    <Skylander>
+      <index>616</index>
+      <name>Mysticat</name>
+      <element>Magic</element>
+    </Skylander>
+    <Skylander>
+      <index>617</index>
+      <name>Starcast</name>
+      <element>Dark</element>
+    </Skylander>
+    <Skylander>
+      <index>618</index>
+      <name>Buckshot</name>
+      <element>Magic</element>
+    </Skylander>
+    <Skylander>
+      <index>619</index>
+      <name>Aurora</name>
+      <element>Light</element>
+    </Skylander>
+    <Skylander>
+      <index>620</index>
+      <name>Flare Wolf</name>
+      <element>Fire</element>
+    </Skylander>
+    <Skylander>
+      <index>621</index>
+      <name>Chompy Mage</name>
+      <element>Life</element>
+    </Skylander>
+    <Skylander>
+      <index>622</index>
+      <name>Bad Juju</name>
+      <element>Air</element>
+    </Skylander>
+    <Skylander>
+      <index>623</index>
+      <name>Grave Clobber</name>
+      <element>Water</element>
+    </Skylander>
+    <Skylander>
+      <index>624</index>
+      <name>Blaster-Tron</name>
+      <element>Light</element>
+    </Skylander>
+    <Skylander>
+      <index>625</index>
+      <name>Ro-Bow</name>
+      <element>Tech</element>
+    </Skylander>
+    <Skylander>
+      <index>626</index>
+      <name>Chain Reaction</name>
+      <element>Tech</element>
+    </Skylander>
+    <Skylander>
+      <index>627</index>
+      <name>Kaos</name>
+      <element>Kaos</element>
+    </Skylander>
+    <Skylander>
+      <index>628</index>
+      <name>Wild Storm</name>
+      <element>Air</element>
+    </Skylander>
+    <Skylander>
+      <index>629</index>
+      <name>Tidepool</name>
+      <element>Water</element>
+    </Skylander>
+    <Skylander>
+      <index>630</index>
+      <name>Crash Bandicoot</name>
+      <element>Life</element>
+    </Skylander>
+    <Skylander>
+      <index>631</index>
+      <name>Dr. Neo Cortex</name>
+      <element>Tech</element>
+    </Skylander>
+    <Skylander>
+      <index>1000</index>
+      <name>Boom Jet</name>
+      <element>Air (Bottom)</element>
+    </Skylander>
+    <Skylander>
+      <index>1001</index>
+      <name>Free Ranger</name>
+      <element>Air  (Bottom)</element>
+    </Skylander>
+    <Skylander>
+      <index>1002</index>
+      <name>Rubble Rouser</name>
+      <element>Earth  (Bottom)</element>
+    </Skylander>
+    <Skylander>
+      <index>1003</index>
+      <name>Doom Stone</name>
+      <element>Earth (Bottom)</element>
+    </Skylander>
+    <Skylander>
+      <index>1004</index>
+      <name>Blast Zone</name>
+      <element>Fire (Bottom)</element>
+    </Skylander>
+    <Skylander>
+      <index>1005</index>
+      <name>Fire Kraken</name>
+      <element>Fire (Bottom)</element>
+    </Skylander>
+    <Skylander>
+      <index>1006</index>
+      <name>Stink Bomb</name>
+      <element>Life (Bottom)</element>
+    </Skylander>
+    <Skylander>
+      <index>1007</index>
+      <name>Grilla Drilla</name>
+      <element>Life (Bottom)</element>
+    </Skylander>
+    <Skylander>
+      <index>1008</index>
+      <name>Hoot Loop</name>
+      <element>Magic (Bottom)</element>
+    </Skylander>
+    <Skylander>
+      <index>1009</index>
+      <name>Trap Shadow</name>
+      <element>Magic (Bottom)</element>
+    </Skylander>
+    <Skylander>
+      <index>1010</index>
+      <name>Magna Charge</name>
+      <element>Tech (Bottom)</element>
+    </Skylander>
+    <Skylander>
+      <index>1011</index>
+      <name>Spy Rise</name>
+      <element>Tech (Bottom)</element>
+    </Skylander>
+    <Skylander>
+      <index>1012</index>
+      <name>Night Shift</name>
+      <element>Undead (Bottom)</element>
+    </Skylander>
+    <Skylander>
+      <index>1013</index>
+      <name>Rattle Shake</name>
+      <element>Undead (Bottom)</element>
+    </Skylander>
+    <Skylander>
+      <index>1014</index>
+      <name>Freeze Blade</name>
+      <element>Water (Bottom)</element>
+    </Skylander>
+    <Skylander>
+      <index>1015</index>
+      <name>Wash Buckler</name>
+      <element>Water (Bottom)</element>
+    </Skylander>
+    <Skylander>
+      <index>2000</index>
+      <name>Boom Jet</name>
+      <element>Air</element>
+    </Skylander>
+    <Skylander>
+      <index>2001</index>
+      <name>Free Ranger</name>
+      <element>Air</element>
+    </Skylander>
+    <Skylander>
+      <index>2002</index>
+      <name>Rubble Rouser</name>
+      <element>Earth</element>
+    </Skylander>
+    <Skylander>
+      <index>2003</index>
+      <name>Doom Stone</name>
+      <element>Earth</element>
+    </Skylander>
+    <Skylander>
+      <index>2004</index>
+      <name>Blast Zone</name>
+      <element>Fire</element>
+    </Skylander>
+    <Skylander>
+      <index>2005</index>
+      <name>Fire Kraken</name>
+      <element>Fire</element>
+    </Skylander>
+    <Skylander>
+      <index>2006</index>
+      <name>Stink Bomb</name>
+      <element>Life</element>
+    </Skylander>
+    <Skylander>
+      <index>2007</index>
+      <name>Grilla Drilla</name>
+      <element>Life</element>
+    </Skylander>
+    <Skylander>
+      <index>2008</index>
+      <name>Hoot Loop</name>
+      <element>Magic</element>
+    </Skylander>
+    <Skylander>
+      <index>2009</index>
+      <name>Trap Shadow</name>
+      <element>Magic</element>
+    </Skylander>
+    <Skylander>
+      <index>2010</index>
+      <name>Magna Charge</name>
+      <element>Tech</element>
+    </Skylander>
+    <Skylander>
+      <index>2011</index>
+      <name>Spy Rise</name>
+      <element>Tech</element>
+    </Skylander>
+    <Skylander>
+      <index>2012</index>
+      <name>Night Shift</name>
+      <element>Undead</element>
+    </Skylander>
+    <Skylander>
+      <index>2013</index>
+      <name>Rattle Shake</name>
+      <element>Undead</element>
+    </Skylander>
+    <Skylander>
+      <index>2014</index>
+      <name>Freeze Blade</name>
+      <element>Water</element>
+    </Skylander>
+    <Skylander>
+      <index>2015</index>
+      <name>Wash Buckler</name>
+      <element>Water</element>
+    </Skylander>
+    <Skylander>
+      <index>3000</index>
+      <name>Scratch</name>
+      <element>Air</element>
+    </Skylander>
+    <Skylander>
+      <index>3001</index>
+      <name>Pop Thorn</name>
+      <element>Air</element>
+    </Skylander>
+    <Skylander>
+      <index>3002</index>
+      <name>Slobber Tooth</name>
+      <element>Earth</element>
+    </Skylander>
+    <Skylander>
+      <index>3003</index>
+      <name>Scorp</name>
+      <element>Earth</element>
+    </Skylander>
+    <Skylander>
+      <index>3004</index>
+      <name>Fryno</name>
+      <element>Fire</element>
+    </Skylander>
+    <Skylander>
+      <index>3005</index>
+      <name>Smolderdash</name>
+      <element>Fire</element>
+    </Skylander>
+    <Skylander>
+      <index>3006</index>
+      <name>Bumble Blast</name>
+      <element>Life</element>
+    </Skylander>
+    <Skylander>
+      <index>3007</index>
+      <name>Zoo Lou</name>
+      <element>Life</element>
+    </Skylander>
+    <Skylander>
+      <index>3008</index>
+      <name>Dune Bug</name>
+      <element>Magic</element>
+    </Skylander>
+    <Skylander>
+      <index>3009</index>
+      <name>Star Strike</name>
+      <element>Magic</element>
+    </Skylander>
+    <Skylander>
+      <index>3010</index>
+      <name>Countdown</name>
+      <element>Tech</element>
+    </Skylander>
+    <Skylander>
+      <index>3011</index>
+      <name>Wind-Up</name>
+      <element>Tech</element>
+    </Skylander>
+    <Skylander>
+      <index>3012</index>
+      <name>Roller Brawl</name>
+      <element>Undead</element>
+    </Skylander>
+    <Skylander>
+      <index>3013</index>
+      <name>Grim Creeper</name>
+      <element>Undead</element>
+    </Skylander>
+    <Skylander>
+      <index>3014</index>
+      <name>Rip Tide</name>
+      <element>Water</element>
+    </Skylander>
+    <Skylander>
+      <index>3015</index>
+      <name>Punk Shock</name>
+      <element>Water</element>
+    </Skylander>
+    <Skylander>
+      <index>3220</index>
+      <name>Jet Stream</name>
+      <element>Air Vehicle</element>
+    </Skylander>
+    <Skylander>
+      <index>3221</index>
+      <name>Tomb Buggy</name>
+      <element>Undead Vehicle</element>
+    </Skylander>
+    <Skylander>
+      <index>3222</index>
+      <name>Reef Ripper</name>
+      <element>Water Vehicle</element>
+    </Skylander>
+    <Skylander>
+      <index>3223</index>
+      <name>Burn Cycle</name>
+      <element>Fire Vehicle</element>
+    </Skylander>
+    <Skylander>
+      <index>3224</index>
+      <name>Hot Streak</name>
+      <element>Fire Vehicle</element>
+    </Skylander>
+    <Skylander>
+      <index>3225</index>
+      <name>Shark Tank</name>
+      <element>Earth Vehicle</element>
+    </Skylander>
+    <Skylander>
+      <index>3226</index>
+      <name>Thump Truck</name>
+      <element>Earth Vehicle</element>
+    </Skylander>
+    <Skylander>
+      <index>3227</index>
+      <name>Crypt Crusher</name>
+      <element>Undead Vehicle</element>
+    </Skylander>
+    <Skylander>
+      <index>3228</index>
+      <name>Stealth Stinger</name>
+      <element>Life Vehicle</element>
+    </Skylander>
+    <Skylander>
+      <index>3231</index>
+      <name>Dive Bomber</name>
+      <element>Water Vehicle</element>
+    </Skylander>
+    <Skylander>
+      <index>3232</index>
+      <name>Sky Slicer</name>
+      <element>Air Vehicle</element>
+    </Skylander>
+    <Skylander>
+      <index>3233</index>
+      <name>Clown Cruiser</name>
+      <element>Air Vehicle</element>
+    </Skylander>
+    <Skylander>
+      <index>3234</index>
+      <name>Gold Rusher</name>
+      <element>Tech Vehicle</element>
+    </Skylander>
+    <Skylander>
+      <index>3235</index>
+      <name>Shield Striker</name>
+      <element>Tech Vehicle</element>
+    </Skylander>
+    <Skylander>
+      <index>3236</index>
+      <name>Sun Runner</name>
+      <element>Light Vehicle</element>
+    </Skylander>
+    <Skylander>
+      <index>3237</index>
+      <name>Sea Shadow</name>
+      <element>Dark Vehicle</element>
+    </Skylander>
+    <Skylander>
+      <index>3238</index>
+      <name>Splatter Splasher</name>
+      <element>Magic Vehicle</element>
+    </Skylander>
+    <Skylander>
+      <index>3239</index>
+      <name>Soda Skimmer</name>
+      <element>Magic Vehicle</element>
+    </Skylander>
+    <Skylander>
+      <index>3240</index>
+      <name>Barrel Blaster</name>
+      <element>Tech Vehicle</element>
+    </Skylander>
+    <Skylander>
+      <index>3241</index>
+      <name>Buzz Wing</name>
+      <element>Life Vehicle</element>
+    </Skylander>
+    <Skylander>
+      <index>3400</index>
+      <name>Fiesta</name>
+      <element>Undead</element>
+    </Skylander>
+    <Skylander>
+      <index>3401</index>
+      <name>High Volt</name>
+      <element>Tech</element>
+    </Skylander>
+    <Skylander>
+      <index>3402</index>
+      <name>Splat</name>
+      <element>Magic</element>
+    </Skylander>
+    <Skylander>
+      <index>3406</index>
+      <name>Stormblade</name>
+      <element>Air</element>
+    </Skylander>
+    <Skylander>
+      <index>3411</index>
+      <name>Smash Hit</name>
+      <element>Earth</element>
+    </Skylander>
+    <Skylander>
+      <index>3412</index>
+      <name>Spitfire</name>
+      <element>Fire</element>
+    </Skylander>
+    <Skylander>
+      <index>3413</index>
+      <name>Hurricane Jet Vac</name>
+      <element>Air</element>
+    </Skylander>
+    <Skylander>
+      <index>3414</index>
+      <name>Double Dare Trigger Happy</name>
+      <element>Tech</element>
+    </Skylander>
+    <Skylander>
+      <index>3415</index>
+      <name>Super Shot Stealth Elf</name>
+      <element>Life</element>
+    </Skylander>
+    <Skylander>
+      <index>3416</index>
+      <name>Shark Shooter Terrafin</name>
+      <element>Earth</element>
+    </Skylander>
+    <Skylander>
+      <index>3417</index>
+      <name>Bone Bash Roller Brawl</name>
+      <element>Undead</element>
+    </Skylander>
+    <Skylander>
+      <index>3420</index>
+      <name>Big Bubble Pop Fizz</name>
+      <element>Magic</element>
+    </Skylander>
+    <Skylander>
+      <index>3421</index>
+      <name>Lava Lance Eruptor</name>
+      <element>Fire</element>
+    </Skylander>
+    <Skylander>
+      <index>3422</index>
+      <name>Deep Dive Gill Grunt</name>
+      <element>Water</element>
+    </Skylander>
+    <Skylander>
+      <index>3423</index>
+      <name>Turbo Charge Donkey Kong</name>
+      <element>Life</element>
+    </Skylander>
+    <Skylander>
+      <index>3424</index>
+      <name>Hammer Slam Bowser</name>
+      <element>Fire</element>
+    </Skylander>
+    <Skylander>
+      <index>3425</index>
+      <name>Dive Clops</name>
+      <element>Water</element>
+    </Skylander>
+    <Skylander>
+      <index>3426</index>
+      <name>Astroblast</name>
+      <element>Light</element>
+    </Skylander>
+    <Skylander>
+      <index>3427</index>
+      <name>Nightfall</name>
+      <element>Dark</element>
+    </Skylander>
+    <Skylander>
+      <index>3428</index>
+      <name>Thrillipede</name>
+      <element>Life</element>
+    </Skylander>
+    <Skylander>
+      <index>3500</index>
+      <name>Sky Trophy</name>
+      <element>Item</element>
+    </Skylander>
+    <Skylander>
+      <index>3501</index>
+      <name>Land Trophy</name>
+      <element>Item</element>
+    </Skylander>
+    <Skylander>
+      <index>3502</index>
+      <name>Sea Trophy</name>
+      <element>Item</element>
+    </Skylander>
+    <Skylander>
+      <index>3503</index>
+      <name>Kaos Trophy</name>
+      <element>Item</element>
+    </Skylander>
+  </SkylanderList>
+  <SkyHats>
+    <hat>
+      <index>0</index>
+      <name>No Hat</name>
+    </hat>
+    <hat>
+      <index>1</index>
+      <name>Combat Hat</name>
+    </hat>
+    <hat>
+      <index>2</index>
+      <name>Napoleon Hat</name>
+    </hat>
+    <hat>
+      <index>3</index>
+      <name>Spy Gear</name>
+    </hat>
+    <hat>
+      <index>4</index>
+      <name>Miner Hat</name>
+    </hat>
+    <hat>
+      <index>5</index>
+      <name>General's Hat</name>
+    </hat>
+    <hat>
+      <index>6</index>
+      <name>Pirate Hat</name>
+    </hat>
+    <hat>
+      <index>7</index>
+      <name>Propeller Hat</name>
+    </hat>
+    <hat>
+      <index>8</index>
+      <name>Coonskin Cap</name>
+    </hat>
+    <hat>
+      <index>9</index>
+      <name>Straw Hat</name>
+    </hat>
+    <hat>
+      <index>10</index>
+      <name>Fancy Hat</name>
+    </hat>
+    <hat>
+      <index>11</index>
+      <name>Top Hat</name>
+    </hat>
+    <hat>
+      <index>12</index>
+      <name>Viking Helmet</name>
+    </hat>
+    <hat>
+      <index>13</index>
+      <name>Spiked Hat</name>
+    </hat>
+    <hat>
+      <index>14</index>
+      <name>Anvil Hat</name>
+    </hat>
+    <hat>
+      <index>15</index>
+      <name>Beret</name>
+    </hat>
+    <hat>
+      <index>16</index>
+      <name>Birthday Hat</name>
+    </hat>
+    <hat>
+      <index>17</index>
+      <name>Bone Head</name>
+    </hat>
+    <hat>
+      <index>18</index>
+      <name>Bowler Hat</name>
+    </hat>
+    <hat>
+      <index>19</index>
+      <name>Wabbit Ears</name>
+    </hat>
+    <hat>
+      <index>20</index>
+      <name>Tropical Turban</name>
+    </hat>
+    <hat>
+      <index>21</index>
+      <name>Chef Hat</name>
+    </hat>
+    <hat>
+      <index>22</index>
+      <name>Cowboy Hat</name>
+    </hat>
+    <hat>
+      <index>23</index>
+      <name>Rocker Hair</name>
+    </hat>
+    <hat>
+      <index>24</index>
+      <name>Royal Crown</name>
+    </hat>
+    <hat>
+      <index>25</index>
+      <name>Lil Devil</name>
+    </hat>
+    <hat>
+      <index>26</index>
+      <name>Eye Hat</name>
+    </hat>
+    <hat>
+      <index>27</index>
+      <name>Fez</name>
+    </hat>
+    <hat>
+      <index>28</index>
+      <name>Crown of Light</name>
+    </hat>
+    <hat>
+      <index>29</index>
+      <name>Jester Hat</name>
+    </hat>
+    <hat>
+      <index>30</index>
+      <name>Winged Hat</name>
+    </hat>
+    <hat>
+      <index>31</index>
+      <name>Moose Hat</name>
+    </hat>
+    <hat>
+      <index>32</index>
+      <name>Plunger Head</name>
+    </hat>
+    <hat>
+      <index>33</index>
+      <name>Pan Hat</name>
+    </hat>
+    <hat>
+      <index>34</index>
+      <name>Rocket Head</name>
+    </hat>
+    <hat>
+      <index>35</index>
+      <name>Santa Hat</name>
+    </hat>
+    <hat>
+      <index>36</index>
+      <name>Tiki Hat</name>
+    </hat>
+    <hat>
+      <index>37</index>
+      <name>Trojan Helmet</name>
+    </hat>
+    <hat>
+      <index>38</index>
+      <name>Unicorn Hat</name>
+    </hat>
+    <hat>
+      <index>39</index>
+      <name>Wizard Hat</name>
+    </hat>
+    <hat>
+      <index>40</index>
+      <name>Pumpkin Hat</name>
+    </hat>
+    <hat>
+      <index>41</index>
+      <name>Pirate Doo Rag</name>
+    </hat>
+    <hat>
+      <index>42</index>
+      <name>Cossack Hat</name>
+    </hat>
+    <hat>
+      <index>43</index>
+      <name>Flower Hat</name>
+    </hat>
+    <hat>
+      <index>44</index>
+      <name>Ballon Hat</name>
+    </hat>
+    <hat>
+      <index>45</index>
+      <name>Happy Birthday!</name>
+    </hat>
+    <hat>
+      <index>46</index>
+      <name>Vintage Baseball Cap</name>
+    </hat>
+    <hat>
+      <index>47</index>
+      <name>No Hat</name>
+    </hat>
+    <hat>
+      <index>48</index>
+      <name>Bowling Pin</name>
+    </hat>
+    <hat>
+      <index>49</index>
+      <name>Officer Hat</name>
+    </hat>
+    <hat>
+      <index>50</index>
+      <name>Firefighter Hat</name>
+    </hat>
+    <hat>
+      <index>51</index>
+      <name>Graduation Hat</name>
+    </hat>
+    <hat>
+      <index>52</index>
+      <name>Lampshade Hat</name>
+    </hat>
+    <hat>
+      <index>53</index>
+      <name>Mariachi Hat</name>
+    </hat>
+    <hat>
+      <index>54</index>
+      <name>No Hat</name>
+    </hat>
+    <hat>
+      <index>55</index>
+      <name>Paper Fast Food Hat</name>
+    </hat>
+    <hat>
+      <index>56</index>
+      <name>Pilgrim Hat</name>
+    </hat>
+    <hat>
+      <index>57</index>
+      <name>Police Siren Hat</name>
+    </hat>
+    <hat>
+      <index>58</index>
+      <name>Purple Fedora</name>
+    </hat>
+    <hat>
+      <index>59</index>
+      <name>Archer Hat</name>
+    </hat>
+    <hat>
+      <index>60</index>
+      <name>No Hat</name>
+    </hat>
+    <hat>
+      <index>61</index>
+      <name>Safari Hat</name>
+    </hat>
+    <hat>
+      <index>62</index>
+      <name>Sailor Hat</name>
+    </hat>
+    <hat>
+      <index>63</index>
+      <name>No Hat</name>
+    </hat>
+    <hat>
+      <index>64</index>
+      <name>Dancer Hat</name>
+    </hat>
+    <hat>
+      <index>65</index>
+      <name>Traffic Cone Hat</name>
+    </hat>
+    <hat>
+      <index>66</index>
+      <name>Turban</name>
+    </hat>
+    <hat>
+      <index>67</index>
+      <name>Battle Helmet</name>
+    </hat>
+    <hat>
+      <index>68</index>
+      <name>Bottle Cap Hat</name>
+    </hat>
+    <hat>
+      <index>69</index>
+      <name>No Hat</name>
+    </hat>
+    <hat>
+      <index>70</index>
+      <name>Carrot Hat</name>
+    </hat>
+    <hat>
+      <index>71</index>
+      <name>No Hat</name>
+    </hat>
+    <hat>
+      <index>72</index>
+      <name>Elf Hat</name>
+    </hat>
+    <hat>
+      <index>73</index>
+      <name>Fishing Hat</name>
+    </hat>
+    <hat>
+      <index>74</index>
+      <name>Future Hat</name>
+    </hat>
+    <hat>
+      <index>75</index>
+      <name>Nefertiti Hat</name>
+    </hat>
+    <hat>
+      <index>76</index>
+      <name>No Hat</name>
+    </hat>
+    <hat>
+      <index>77</index>
+      <name>Pants Hat</name>
+    </hat>
+    <hat>
+      <index>78</index>
+      <name>Princess Hat</name>
+    </hat>
+    <hat>
+      <index>79</index>
+      <name>Toy Soldier Hat</name>
+    </hat>
+    <hat>
+      <index>80</index>
+      <name>Trucker Hat</name>
+    </hat>
+    <hat>
+      <index>81</index>
+      <name>Umbrella Hat</name>
+    </hat>
+    <hat>
+      <index>82</index>
+      <name>Showtime Hat</name>
+    </hat>
+    <hat>
+      <index>83</index>
+      <name>Caesar Hat</name>
+    </hat>
+    <hat>
+      <index>84</index>
+      <name>Flower Fairy Hat</name>
+    </hat>
+    <hat>
+      <index>85</index>
+      <name>Funnel Hat</name>
+    </hat>
+    <hat>
+      <index>86</index>
+      <name>Scrumshanks Hat</name>
+    </hat>
+    <hat>
+      <index>87</index>
+      <name>Biter Hat</name>
+    </hat>
+    <hat>
+      <index>88</index>
+      <name>Atom Hat</name>
+    </hat>
+    <hat>
+      <index>89</index>
+      <name>Sombrero</name>
+    </hat>
+    <hat>
+      <index>90</index>
+      <name>Rasta Hat</name>
+    </hat>
+    <hat>
+      <index>91</index>
+      <name>Kufi Hat</name>
+    </hat>
+    <hat>
+      <index>92</index>
+      <name>Knight Helm</name>
+    </hat>
+    <hat>
+      <index>93</index>
+      <name>Dangling Carrot Hat</name>
+    </hat>
+    <hat>
+      <index>94</index>
+      <name>Bronze Top Hat</name>
+    </hat>
+    <hat>
+      <index>95</index>
+      <name>Silver Top Hat</name>
+    </hat>
+    <hat>
+      <index>96</index>
+      <name>Gold Top Hat</name>
+    </hat>
+    <hat>
+      <index>97</index>
+      <name>Rain Hat</name>
+    </hat>
+    <hat>
+      <index>98</index>
+      <name>The Outsider</name>
+    </hat>
+    <hat>
+      <index>99</index>
+      <name>Greeble Hat</name>
+    </hat>
+    <hat>
+      <index>100</index>
+      <name>Volcano Hat</name>
+    </hat>
+    <hat>
+      <index>101</index>
+      <name>Boater Hat</name>
+    </hat>
+    <hat>
+      <index>102</index>
+      <name>Stone Hat</name>
+    </hat>
+    <hat>
+      <index>103</index>
+      <name>Stovepipe Hat</name>
+    </hat>
+    <hat>
+      <index>104</index>
+      <name>Boonie Hat</name>
+    </hat>
+    <hat>
+      <index>105</index>
+      <name>Sawblade Hat</name>
+    </hat>
+    <hat>
+      <index>106</index>
+      <name>Zombeanie</name>
+    </hat>
+    <hat>
+      <index>107</index>
+      <name>Gaucho Hat</name>
+    </hat>
+    <hat>
+      <index>108</index>
+      <name>Roundlet</name>
+    </hat>
+    <hat>
+      <index>109</index>
+      <name>Capuchon</name>
+    </hat>
+    <hat>
+      <index>110</index>
+      <name>Tricorn Hat</name>
+    </hat>
+    <hat>
+      <index>111</index>
+      <name>Peacock Hat</name>
+    </hat>
+    <hat>
+      <index>112</index>
+      <name>Bearskin Hat</name>
+    </hat>
+    <hat>
+      <index>113</index>
+      <name>Fishbone Hat</name>
+    </hat>
+    <hat>
+      <index>114</index>
+      <name>Ski Cap</name>
+    </hat>
+    <hat>
+      <index>115</index>
+      <name>Crown of Frost</name>
+    </hat>
+    <hat>
+      <index>116</index>
+      <name>Four Winds Hat</name>
+    </hat>
+    <hat>
+      <index>117</index>
+      <name>Beacon Hat</name>
+    </hat>
+    <hat>
+      <index>118</index>
+      <name>Flower Garland</name>
+    </hat>
+    <hat>
+      <index>119</index>
+      <name>Tree Branch</name>
+    </hat>
+    <hat>
+      <index>120</index>
+      <name>Aviator's Cap</name>
+    </hat>
+    <hat>
+      <index>121</index>
+      <name>Asteroid Hat</name>
+    </hat>
+    <hat>
+      <index>122</index>
+      <name>Crystal Hat</name>
+    </hat>
+    <hat>
+      <index>123</index>
+      <name>Creepy Helm</name>
+    </hat>
+    <hat>
+      <index>124</index>
+      <name>Fancy Ribbon</name>
+    </hat>
+    <hat>
+      <index>125</index>
+      <name>Deeply Boppers</name>
+    </hat>
+    <hat>
+      <index>126</index>
+      <name>Beanie</name>
+    </hat>
+    <hat>
+      <index>127</index>
+      <name>Leprechaun Hat</name>
+    </hat>
+    <hat>
+      <index>128</index>
+      <name>Shark Hat</name>
+    </hat>
+    <hat>
+      <index>129</index>
+      <name>Lifesaver Hat</name>
+    </hat>
+    <hat>
+      <index>130</index>
+      <name>Glittering Tiara</name>
+    </hat>
+    <hat>
+      <index>131</index>
+      <name>Great Helm</name>
+    </hat>
+    <hat>
+      <index>132</index>
+      <name>Space Helmet</name>
+    </hat>
+    <hat>
+      <index>133</index>
+      <name>UFO Hat</name>
+    </hat>
+    <hat>
+      <index>134</index>
+      <name>Whirlwind Diadem</name>
+    </hat>
+    <hat>
+      <index>135</index>
+      <name>Obsidian Helm</name>
+    </hat>
+    <hat>
+      <index>136</index>
+      <name>Lilypad Hat</name>
+    </hat>
+    <hat>
+      <index>137</index>
+      <name>Crown of Flames</name>
+    </hat>
+    <hat>
+      <index>138</index>
+      <name>Runic Headband</name>
+    </hat>
+    <hat>
+      <index>139</index>
+      <name>Cloclwork Hat</name>
+    </hat>
+    <hat>
+      <index>140</index>
+      <name>Cactus Hat</name>
+    </hat>
+    <hat>
+      <index>141</index>
+      <name>Skullhelm</name>
+    </hat>
+    <hat>
+      <index>142</index>
+      <name>Gloop Hat</name>
+    </hat>
+    <hat>
+      <index>143</index>
+      <name>Puma Hat</name>
+    </hat>
+    <hat>
+      <index>144</index>
+      <name>Elephant Hat</name>
+    </hat>
+    <hat>
+      <index>145</index>
+      <name>Tiger Skin Cap</name>
+    </hat>
+    <hat>
+      <index>146</index>
+      <name>Teeth Top Hat</name>
+    </hat>
+    <hat>
+      <index>147</index>
+      <name>Turkey Hat</name>
+    </hat>
+    <hat>
+      <index>148</index>
+      <name>Eyefro</name>
+    </hat>
+    <hat>
+      <index>149</index>
+      <name>Bacon Bandana</name>
+    </hat>
+    <hat>
+      <index>150</index>
+      <name>Awesome Hat</name>
+    </hat>
+    <hat>
+      <index>151</index>
+      <name>Card Shark Hat</name>
+    </hat>
+    <hat>
+      <index>152</index>
+      <name>Jolly Hat</name>
+    </hat>
+    <hat>
+      <index>153</index>
+      <name>Kickoff Hat</name>
+    </hat>
+    <hat>
+      <index>154</index>
+      <name>Springtime Hat</name>
+    </hat>
+    <hat>
+      <index>155</index>
+      <name>Beetle Hat</name>
+    </hat>
+    <hat>
+      <index>156</index>
+      <name>Brain Hat</name>
+    </hat>
+    <hat>
+      <index>157</index>
+      <name>Brainiac Hat</name>
+    </hat>
+    <hat>
+      <index>158</index>
+      <name>Bucket Hat</name>
+    </hat>
+    <hat>
+      <index>159</index>
+      <name>Desert Crown</name>
+    </hat>
+    <hat>
+      <index>160</index>
+      <name>Ceiling Fan Hat</name>
+    </hat>
+    <hat>
+      <index>161</index>
+      <name>Imperial Hat</name>
+    </hat>
+    <hat>
+      <index>162</index>
+      <name>Clown Classic Hat</name>
+    </hat>
+    <hat>
+      <index>163</index>
+      <name>Clown Bowler Hat</name>
+    </hat>
+    <hat>
+      <index>164</index>
+      <name>Colander Hat</name>
+    </hat>
+    <hat>
+      <index>165</index>
+      <name>Kepi Hat</name>
+    </hat>
+    <hat>
+      <index>166</index>
+      <name>Cornucopia Hat</name>
+    </hat>
+    <hat>
+      <index>167</index>
+      <name>Cubano Hat</name>
+    </hat>
+    <hat>
+      <index>168</index>
+      <name>Cycling Hat</name>
+    </hat>
+    <hat>
+      <index>169</index>
+      <name>Daisy Crown</name>
+    </hat>
+    <hat>
+      <index>170</index>
+      <name>Dragon Skull</name>
+    </hat>
+    <hat>
+      <index>171</index>
+      <name>Outback Hat</name>
+    </hat>
+    <hat>
+      <index>172</index>
+      <name>Lil' Elf Hat</name>
+    </hat>
+    <hat>
+      <index>173</index>
+      <name>Generalissimo</name>
+    </hat>
+    <hat>
+      <index>174</index>
+      <name>Garrison Hat</name>
+    </hat>
+    <hat>
+      <index>175</index>
+      <name>Gondolier Hat</name>
+    </hat>
+    <hat>
+      <index>176</index>
+      <name>Hunting Hat</name>
+    </hat>
+    <hat>
+      <index>177</index>
+      <name>Juicer Hat</name>
+    </hat>
+    <hat>
+      <index>178</index>
+      <name>Kokoshnik</name>
+    </hat>
+    <hat>
+      <index>179</index>
+      <name>Medic Hat</name>
+    </hat>
+    <hat>
+      <index>180</index>
+      <name>Melon Hat</name>
+    </hat>
+    <hat>
+      <index>181</index>
+      <name>Mountie Hat</name>
+    </hat>
+    <hat>
+      <index>182</index>
+      <name>Nurse Hat</name>
+    </hat>
+    <hat>
+      <index>183</index>
+      <name>Palm Hat</name>
+    </hat>
+    <hat>
+      <index>184</index>
+      <name>Paperboy Hat</name>
+    </hat>
+    <hat>
+      <index>185</index>
+      <name>Parrot Nest</name>
+    </hat>
+    <hat>
+      <index>186</index>
+      <name>Old-Time Movie Hat</name>
+    </hat>
+    <hat>
+      <index>187</index>
+      <name>Classic Pot Hat</name>
+    </hat>
+    <hat>
+      <index>188</index>
+      <name>Radar Hat</name>
+    </hat>
+    <hat>
+      <index>189</index>
+      <name>Crazy Light Bulb Hat</name>
+    </hat>
+    <hat>
+      <index>190</index>
+      <name>Rubber Glove Hat</name>
+    </hat>
+    <hat>
+      <index>191</index>
+      <name>Rugby Hat</name>
+    </hat>
+    <hat>
+      <index>192</index>
+      <name>Metal Fin Hat</name>
+    </hat>
+    <hat>
+      <index>193</index>
+      <name>Sleuth Hat</name>
+    </hat>
+    <hat>
+      <index>194</index>
+      <name>Shower Cap</name>
+    </hat>
+    <hat>
+      <index>195</index>
+      <name>Bobby</name>
+    </hat>
+    <hat>
+      <index>196</index>
+      <name>Hedgehog Hat</name>
+    </hat>
+    <hat>
+      <index>197</index>
+      <name>Steampunk Hat</name>
+    </hat>
+    <hat>
+      <index>198</index>
+      <name>Flight Attendant Hat</name>
+    </hat>
+    <hat>
+      <index>199</index>
+      <name>Monday Hat</name>
+    </hat>
+    <hat>
+      <index>200</index>
+      <name>Sherpa Hat</name>
+    </hat>
+    <hat>
+      <index>201</index>
+      <name>Trash Lid</name>
+    </hat>
+    <hat>
+      <index>202</index>
+      <name>Turtle Hat</name>
+    </hat>
+    <hat>
+      <index>203</index>
+      <name>Extreme Viking Hat</name>
+    </hat>
+    <hat>
+      <index>204</index>
+      <name>Scooter Hat</name>
+    </hat>
+    <hat>
+      <index>205</index>
+      <name>Volcano Island Hat</name>
+    </hat>
+    <hat>
+      <index>206</index>
+      <name>Synchronized Swimming Cap</name>
+    </hat>
+    <hat>
+      <index>207</index>
+      <name>William Tell Hat</name>
+    </hat>
+    <hat>
+      <index>208</index>
+      <name>Tribal Hat</name>
+    </hat>
+    <hat>
+      <index>209</index>
+      <name>Rude Boy Hat</name>
+    </hat>
+    <hat>
+      <index>210</index>
+      <name>Pork Pie Hat</name>
+    </hat>
+    <hat>
+      <index>211</index>
+      <name>Alarm Clock Hat</name>
+    </hat>
+    <hat>
+      <index>212</index>
+      <name>Batter Up Hat</name>
+    </hat>
+    <hat>
+      <index>213</index>
+      <name>Horns Be With You Hat</name>
+    </hat>
+    <hat>
+      <index>214</index>
+      <name>Croissant Hat</name>
+    </hat>
+    <hat>
+      <index>215</index>
+      <name>Weather Vane Hat</name>
+    </hat>
+    <hat>
+      <index>216</index>
+      <name>Rainbow Hat</name>
+    </hat>
+    <hat>
+      <index>217</index>
+      <name>Eye of Kaos Hat</name>
+    </hat>
+    <hat>
+      <index>218</index>
+      <name>Bat Hat</name>
+    </hat>
+    <hat>
+      <index>219</index>
+      <name>Light Bulb Hat</name>
+    </hat>
+    <hat>
+      <index>220</index>
+      <name>Firefly Jar</name>
+    </hat>
+    <hat>
+      <index>221</index>
+      <name>Shadow Ghost Hat</name>
+    </hat>
+    <hat>
+      <index>222</index>
+      <name>Lighthouse Beacon Hat</name>
+    </hat>
+    <hat>
+      <index>223</index>
+      <name>Tin Foil Hat</name>
+    </hat>
+    <hat>
+      <index>224</index>
+      <name>Night Cap</name>
+    </hat>
+    <hat>
+      <index>225</index>
+      <name>Storm Hat</name>
+    </hat>
+    <hat>
+      <index>226</index>
+      <name>Gold Arkeyan Helm</name>
+    </hat>
+    <hat>
+      <index>227</index>
+      <name>Toucan Hat</name>
+    </hat>
+    <hat>
+      <index>228</index>
+      <name>Pyramid Hat</name>
+    </hat>
+    <hat>
+      <index>229</index>
+      <name>Miniature Skylands Hat</name>
+    </hat>
+    <hat>
+      <index>230</index>
+      <name>Wizard Hat</name>
+    </hat>
+    <hat>
+      <index>231</index>
+      <name>No Hat</name>
+    </hat>
+    <hat>
+      <index>232</index>
+      <name>Candy Cane Hat</name>
+    </hat>
+    <hat>
+      <index>233</index>
+      <name>Eggshell Hat</name>
+    </hat>
+    <hat>
+      <index>234</index>
+      <name>Candle Hat</name>
+    </hat>
+    <hat>
+      <index>235</index>
+      <name>Dark Helm</name>
+    </hat>
+    <hat>
+      <index>236</index>
+      <name>Planet Hat</name>
+    </hat>
+    <hat>
+      <index>237</index>
+      <name>Bellhop Hat</name>
+    </hat>
+    <hat>
+      <index>238</index>
+      <name>Bronze Arkeyan Helm</name>
+    </hat>
+    <hat>
+      <index>239</index>
+      <name>Silver Arkeyan Helm</name>
+    </hat>
+    <hat>
+      <index>240</index>
+      <name>Raver Hat</name>
+    </hat>
+    <hat>
+      <index>241</index>
+      <name>Shire Hat</name>
+    </hat>
+    <hat>
+      <index>242</index>
+      <name>Mongol Hat</name>
+    </hat>
+    <hat>
+      <index>243</index>
+      <name>Skipper Hat</name>
+    </hat>
+    <hat>
+      <index>244</index>
+      <name>Medieval Bard Hat</name>
+    </hat>
+    <hat>
+      <index>245</index>
+      <name>Wooden Hat</name>
+    </hat>
+    <hat>
+      <index>246</index>
+      <name>Carnival Hat</name>
+    </hat>
+    <hat>
+      <index>247</index>
+      <name>Coconut Hat</name>
+    </hat>
+    <hat>
+      <index>248</index>
+      <name>Model Home Hat</name>
+    </hat>
+    <hat>
+      <index>249</index>
+      <name>Ice Cream Hat</name>
+    </hat>
+    <hat>
+      <index>250</index>
+      <name>Molekin Mountain Hat</name>
+    </hat>
+    <hat>
+      <index>251</index>
+      <name>Sheepwrecked Hat</name>
+    </hat>
+    <hat>
+      <index>252</index>
+      <name>Core of Light Hat</name>
+    </hat>
+    <hat>
+      <index>253</index>
+      <name>Octavius Cloptimus Hat</name>
+    </hat>
+    <hat>
+      <index>254</index>
+      <name>No Hat</name>
+    </hat>
+    <hat>
+      <index>255</index>
+      <name>No Hat</name>
+    </hat>
+    <hat>
+      <index>256</index>
+      <name>No Hat</name>
+    </hat>
+    <hat>
+      <index>257</index>
+      <name>No Hat</name>
+    </hat>
+    <hat>
+      <index>258</index>
+      <name>No Hat</name>
+    </hat>
+    <hat>
+      <index>259</index>
+      <name>Dive Bomber Hat</name>
+    </hat>
+    <hat>
+      <index>260</index>
+      <name>Sea Shadow Hat</name>
+    </hat>
+    <hat>
+      <index>261</index>
+      <name>Burn-Cycle Header</name>
+    </hat>
+    <hat>
+      <index>262</index>
+      <name>Reef Ripper Helmet</name>
+    </hat>
+    <hat>
+      <index>263</index>
+      <name>Jet Stream Helmet</name>
+    </hat>
+    <hat>
+      <index>264</index>
+      <name>Soda Skimmer Shower Cap</name>
+    </hat>
+    <hat>
+      <index>265</index>
+      <name>Tomb Buggy Skullcap</name>
+    </hat>
+    <hat>
+      <index>266</index>
+      <name>Stealth Stinger Beanie</name>
+    </hat>
+    <hat>
+      <index>267</index>
+      <name>Shark Tank Topper</name>
+    </hat>
+    <hat>
+      <index>268</index>
+      <name>Gold Rusher Cog Cap</name>
+    </hat>
+    <hat>
+      <index>269</index>
+      <name>Splatter Splasher Spires</name>
+    </hat>
+    <hat>
+      <index>270</index>
+      <name>Thump Trucker's Hat</name>
+    </hat>
+    <hat>
+      <index>271</index>
+      <name>Buzz Wing Hat</name>
+    </hat>
+    <hat>
+      <index>272</index>
+      <name>Shield Striker Helmet</name>
+    </hat>
+    <hat>
+      <index>273</index>
+      <name>Sun Runner Spikes</name>
+    </hat>
+    <hat>
+      <index>274</index>
+      <name>Hot Streak Headpiece</name>
+    </hat>
+    <hat>
+      <index>275</index>
+      <name>Sky Slicer Hat</name>
+    </hat>
+    <hat>
+      <index>276</index>
+      <name>Crypt Crusher Cap</name>
+    </hat>
+    <hat>
+      <index>277</index>
+      <name>Mags Hat</name>
+    </hat>
+    <hat>
+      <index>278</index>
+      <name>Kaos Krown</name>
+    </hat>
+    <hat>
+      <index>279</index>
+      <name>Eon's Helm</name>
+    </hat>
+  </SkyHats>
+</SkylanderDB>
