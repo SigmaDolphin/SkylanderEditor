@@ -103,11 +103,38 @@ Module skyDecrypter
 
     End Function
 
-    'this function is to detect blank/new skylanders
-    Public Function checkBlankSkylander(ByVal skyData As Byte()) As Boolean
+    'this function is to detect blank/new skylanders or figures that have been initialized and only have touched SSA
+    'state = 0 - normal
+    'state = 1 - blank
+    'state = 2 - SSA only data
+    Public Function checkBlankSkylander(ByVal skyData As Byte()) As Integer
         Dim h As Integer
         Dim areaA As Boolean = False
         Dim areaB As Boolean = False
+
+
+        h = 272
+        Do
+            If skyData(h) <> 0 Then
+                areaA = True
+                Exit Do
+            End If
+            h = h + 1
+        Loop While h <= 288
+
+        h = 720
+        Do
+            If skyData(h) <> 0 Then
+                areaB = True
+                Exit Do
+            End If
+            h = h + 1
+        Loop While h <= 736
+
+        If areaA And areaB Then
+            Return 0
+        End If
+
 
         h = 128
         Do
@@ -127,14 +154,33 @@ Module skyDecrypter
             h = h + 1
         Loop While h <= 592
 
-
         If areaA And areaB Then
-            Return False
+            Return 2
         End If
 
-        Return True
+
+        Return 1
 
     End Function
+                                                
+    'function to initialize Giants and forward blocks in case an SSA only figure is detected                                            
+    Public Sub initializeSSA(ByRef skyData As Byte())
+        Dim blnkBytes(15) As Byte
+
+        Array.Copy(blnkBytes, 0, skyData, 17 * 16, 16)
+        Array.Copy(blnkBytes, 0, skyData, 18 * 16, 16)
+        Array.Copy(blnkBytes, 0, skyData, 20 * 16, 16)
+        Array.Copy(blnkBytes, 0, skyData, 21 * 16, 16)
+
+        Array.Copy(blnkBytes, 0, skyData, 45 * 16, 16)
+        Array.Copy(blnkBytes, 0, skyData, 46 * 16, 16)
+        Array.Copy(blnkBytes, 0, skyData, 48 * 16, 16)
+        Array.Copy(blnkBytes, 0, skyData, 49 * 16, 16)
+
+        skyData(274) = 1
+        skyData(722) = 2
+
+    End Sub
 
     'we require the MD5 to generate the AES key
     Public Function CalculateMD5Hash(ByVal input As Byte()) As Byte()
