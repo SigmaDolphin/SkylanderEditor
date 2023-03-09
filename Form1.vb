@@ -40,6 +40,7 @@ Public Class Form1
     End Sub
 
     Private Sub OpenDecryptedSkylanderToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles OpenDecryptedSkylanderToolStripMenuItem.Click
+        Dim skystate as Integer
         'reads data from a decrypted skylander file
         OpenFileDialog1.Filter = "Decrypted Skylanders (*.skd)|*.skd|All Files|*.*"
         OpenFileDialog1.ShowDialog()
@@ -49,16 +50,22 @@ Public Class Form1
         skylanderFilepath = OpenFileDialog1.FileName
         OpenFileDialog1.FileName = ""
         skylanderBytes = System.IO.File.ReadAllBytes(skylanderFilepath)
-        If checkBlankSkylander(skylanderBytes) Then
+        skystate = checkBlankSkylander(skylanderBytes)
+        If skystate = 1 Then
             readskylandData(skylanderBytes, True)
             ToolStripStatusLabel1.Text = "This Skylander is blank/new"
         Else
+            skylanderBytes = decryptSkylander(skylanderBytes)
+            If skystate = 2 Then
+                initializeSSA(skylanderBytes)
+            End If
             readskylandData(skylanderBytes, False)
         End If
 
     End Sub
 
     Private Sub OpenEncryptedSkylanderToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles OpenEncryptedSkylanderToolStripMenuItem.Click
+        Dim skystate as Integer
         'reads data from an encrypted skylander file
         OpenFileDialog1.Filter = "Encrypted Skylanders (*.ske)|*.ske|All Files|*.*"
         OpenFileDialog1.ShowDialog()
@@ -69,11 +76,15 @@ Public Class Form1
         OpenFileDialog1.FileName = ""
         skylanderBytes = System.IO.File.ReadAllBytes(skylanderFilepath)
 
-        If checkBlankSkylander(skylanderBytes) Then
+        skystate = checkBlankSkylander(skylanderBytes)
+        If skystate = 1 Then
             readskylandData(skylanderBytes, True)
             ToolStripStatusLabel1.Text = "This Skylander is blank/new"
         Else
             skylanderBytes = decryptSkylander(skylanderBytes)
+            If skystate = 2 Then
+                initializeSSA(skylanderBytes)
+            End If
             readskylandData(skylanderBytes, False)
         End If
 
@@ -113,6 +124,7 @@ Public Class Form1
         'reads skylander data from the portal
         Dim timeout As Integer
         Dim readBlock As Integer
+        Dim skystate as Integer
 
         'reset portal
         outRepoBytes(1) = &H52
@@ -148,11 +160,15 @@ Public Class Form1
 
         Loop While readBlock <= &H3F
         Array.Clear(outRepoBytes, 0, 33)
-        If checkBlankSkylander(skylanderBytes) Then
+        skystate = checkBlankSkylander(skylanderBytes)
+        If skystate = 1 Then
             readskylandData(skylanderBytes, True)
             ToolStripStatusLabel1.Text = "This Skylander is blank/new"
         Else
             skylanderBytes = decryptSkylander(skylanderBytes)
+            If skystate = 2 Then
+                initializeSSA(skylanderBytes)
+            End If
             readskylandData(skylanderBytes, False)
         End If
     End Sub
@@ -247,7 +263,7 @@ Public Class Form1
         'same as read from portal, but reads the second position skylander (usually the Top half of a swapper)
         Dim timeout As Integer
         Dim readBlock As Integer
-
+        Dim skystate as Integer
 
         outRepoBytes(1) = &H52
         outputReport(portalHandle, outRepoBytes)
@@ -278,7 +294,7 @@ Public Class Form1
 
         Loop While readBlock <= &H3F
         Array.Clear(outRepoBytes, 0, 33)
-        If checkBlankSkylander(skylanderBytes) Then
+        If skystate = 1 Then
             readskylandData(skylanderBytes, True)
             ToolStripStatusLabel1.Text = "This Skylander is blank/new"
         Else
